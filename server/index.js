@@ -2,8 +2,8 @@ import dotenv from 'dotenv';
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-const User = import('./models/user.model.js')
-const jwt = import('jsonwebtoken')
+import User from './models/user.model.js';
+import jwt from 'jsonwebtoken';
 
 const app = express()
 
